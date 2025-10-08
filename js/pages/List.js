@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 30" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -49,10 +49,6 @@ export default {
                         <li>
                             <div class="type-title-sm">ID</div>
                             <p>{{ level.id }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -100,28 +96,76 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                    The video requires you to include: CPS Counter, Attempt Counter, Cheat Indicator, Session Time counter (not necessary, but adds more legitimacy to the run), FPS Counter and, if run is made on Noclip, Noclip Accuracy and Noclip Deaths counter.
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                    The video quality has to be between 480p to 720p and between 40 to 60 FPS.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                    The user also HAS to include ALL the attempts (including copies).
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                    The video REQUIRES a microphone usage. It may not be required after the user proves that he can't use it or if he shows all the progress on the level.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                    Allowed FPS values stand between 30 to 240 FPS.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                    Achieved the record without using hacks. (Pretty self-explainatory)
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                    Achieved the record on the level that is listed on the site
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                    Have either source audio or clicks/taps in the video. Edited audio only does not count
+                    </p>
+                    <p>
+                    Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                    </p>
+                    <p>
+                    The recording must also show the player hit the endwall, or the completion will be invalidated.
+                    </p>
+                    <p>
+                    Do not use secret routes or bug routes
+                    </p>
+                    <p>
+                    Do not use easy modes, only a record of the unmodified level qualifies
+                    </p>
+                    <p>
+                    CBF is allowed due to many people using it.
+                    </p>
+                    <p>
+                    PlatformerSaves mod usage is also allowed.
+                    </p>
+                    <p>
+                    Record requires both raw, unedited version and edited version (excluding the records that are legitimate or old ones). Both video versions HAVE to be posted only on YouTube or through Google Drive.
+                    </p>
+                    <p>
+                    Copies (ULDM and StartPos versions) are allowed, but ONLY after they get accepted by owner or moderator. Questions about copies can be asked in our Discord Server!
+                    </p>
+                    <p>
+                    All the record submissions take from 1 hour to 7 days. If the wait time is longer then it means we're not sure of the legitimacy of the level and we need to talk it over. The maximum wait time is 14 days. If the record doesn't get accepted in this time then it means it hasn't been accepted. We'll inform you on Discord.
+                    </p>
+                    <p>
+                    If the record has been proven illegitimate (while verifying it or after it gets accepted), the user gets one warning (and the record gets taken off if it was already accepted). You can find the warned user list on our Discord server!
+                    </p>
+                    <p>
+                    Trolling (Sending purposefully hacked videos), spam submitting records, demanding to speed-up the submission process, etc. will result in a timed ban from submitting (from 1 to 7 days; the ban means that you can see the list and "submit" the record, but it's going to get INSTANTLY rejected).
+                    </p>
+                    <p>
+                    The video (if proven hacked) may be sent to RGDPS moderators, what might result in your RGDPS account getting banned.
+                    </p>
+                    <p>
+                    Breaking any rule will result in a punishment.
+                    </p>
+                    <p>
+                    If you have any additional questions or concerns regarding the record submission - contact us in our Discord server!
+                    </p>
+                    <p>
+                    The video (if proven hacked) may be sent to RGDPS moderators, what might result in your RGDPS account getting banned.
+                    </p>
+                    <p>
+                    The video (if proven hacked) may be sent to RGDPS moderators, what might result in your RGDPS account getting banned.
                     </p>
                 </div>
             </div>
