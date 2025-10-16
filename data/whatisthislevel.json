@@ -3,17 +3,11 @@
     "name": "What Is This Level",
     "author": "ThatLittleFoxID",
     "creators": [],
-    "verifier": "ThatLittleFoxID",
+    "verifier": "JohnRedGD",
     "verification": "https://youtu.be/eMVM3q9ukvg?si=I_VyJW2oQ6chZWdJ",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-                {
-            "user": "JohnRedGD",
-            "link": "https://www.youtube.com/watch?v=eMVM3q9ukvg&list=PLEUMynnTZA1FOzfhe-lKfwuWJ9j0KeDQd&index=3&t=6s&pp=iAQB",
-            "percent": 100,
-            "hz": 60
-        }
     ]
 }
 
