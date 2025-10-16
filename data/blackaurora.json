@@ -8,6 +8,12 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+                {
+            "user": "JohnRedGD",
+            "link": "https://www.youtube.com/watch?v=lefI3c3Lhp0&list=PLEUMynnTZA1FOzfhe-lKfwuWJ9j0KeDQd&index=18&pp=iAQB0gcJCfwJAYcqIYzv",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
 
